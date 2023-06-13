@@ -12,6 +12,13 @@ Id  Name                Grades
 102 Piero della Francesca   50
 120 Francesca da Polenta    84 */
 
+//! FUNZIONI:
+
+// Funzione per ottenere i nomi degli studenti sopra una media voto specificata
+function getSopra70Names(studentsList) {
+
+};
+
 //! OPERAZIONI INIZIALI:
 
 const students = [
@@ -39,6 +46,13 @@ const sopra70EIdSopra120 = students.filter(student => student.grades > 70 && stu
 const sopra70EIdSopra120Output = document.createElement('p');
 sopra70EIdSopra120Output.textContent = 'Studenti con una media voto superiore a 70 e un ID superiore a 120: ' + getSopra70Names(sopra70EIdSopra120);
 document.getElementById('output').appendChild(sopra70EIdSopra120Output);
+
+// MILESTONE 3: Creare una lista dei nomi degli studenti in lettere maiuscole
+const nomiInMaiuscolo = students.map(student => student.name.toUpperCase());
+
+const nomiInMaiuscoloOutput = document.createElement('p');
+nomiInMaiuscoloOutput.textContent = 'Nomi degli studenti in lettere maiuscole: ' + nomiInMaiuscolo.join(', ');
+document.getElementById('output').appendChild(nomiInMaiuscoloOutput);
 
 
  
