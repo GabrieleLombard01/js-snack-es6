@@ -33,4 +33,12 @@ const sopra70Output = document.createElement('p');
 sopra70Output.textContent = 'Studenti con una media voto superiore a 70: ' + getSopra70Names(sopra70);
 document.getElementById('output').appendChild(sopra70Output);
 
+// MILESTONE 2: Creare una lista degli studenti con una media voto superiore a 70 e un ID superiore a 120
+const sopra70EIdSopra120 = students.filter(student => student.grades > 70 && student.id > 120);
+
+const sopra70EIdSopra120Output = document.createElement('p');
+sopra70EIdSopra120Output.textContent = 'Studenti con una media voto superiore a 70 e un ID superiore a 120: ' + getSopra70Names(sopra70EIdSopra120);
+document.getElementById('output').appendChild(sopra70EIdSopra120Output);
+
+
  
