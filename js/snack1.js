@@ -29,3 +29,6 @@ for (let i = 0; i < guestList.length; i++) {
     };
     placeCards.push(guest);
   }
+
+// Stampo in console la lista dei segnaposti
+console.log(placeCards);

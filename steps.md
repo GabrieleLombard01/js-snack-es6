@@ -14,7 +14,7 @@
 
     <hr>
 
-## SNACK 2:
+## SNACK 1:
 ### CREO un array con i nomi degli invitati
 ### CREO due costanti
 - tableName
@@ -23,3 +23,7 @@
 - servendomi di FOR
 - creando un'oggetto js
 ### STAMPO la lista dei segnaposti
+
+<hr>
+
+## SNACK 2:
