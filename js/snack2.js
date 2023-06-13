@@ -26,5 +26,11 @@ const students = [
 
 //! LOGICA EFFETTIVA:
 
+// MILESTONE 1: Creare una lista degli studenti con una media voto superiore a 70
+const sopra70 = students.filter(student => student.grades > 70);
+
+const sopra70Output = document.createElement('p');
+sopra70Output.textContent = 'Studenti con una media voto superiore a 70: ' + getSopra70Names(sopra70);
+document.getElementById('output').appendChild(sopra70Output);
 
  
