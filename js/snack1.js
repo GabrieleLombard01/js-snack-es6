@@ -21,3 +21,11 @@ const placeCards = [];
 
 //! LOGICA EFFETTIVA:
 
+for (let i = 0; i < guestList.length; i++) {
+    const guest = {
+      table: tableName,
+      name: guestList[i],
+      seat: i + 1
+    };
+    placeCards.push(guest);
+  }
