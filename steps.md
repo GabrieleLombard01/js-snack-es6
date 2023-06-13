@@ -13,3 +13,13 @@
     3. dobbiamo stampare le targhe col nome degli studenti: creare una lista contenente il loro nome tutto in maiuscolo ES (Marco della Rovere => MARCO DELLA ROVERE);
 
     <hr>
+
+## SNACK 2:
+### CREO un array con i nomi degli invitati
+### CREO due costanti
+- tableName
+- placeCards
+### CREO una logica che che racchiuda la lista degli ospiti
+- servendomi di FOR
+- creando un'oggetto js
+### STAMPO la lista dei segnaposti
