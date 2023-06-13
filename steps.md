@@ -27,3 +27,17 @@
 <hr>
 
 ## SNACK 2:
+### CREO un oggetto che contenga nomi, gradi e id
+### MILESTONE 1: 
+- Creare una lista degli studenti con una media voto superiore a 70
+    * Mi aiuto usando FILTER e CREATE ELEMENT
+### MILESTONE 2:
+- Creare una lista degli studenti con una media voto superiore a 70 e un ID superiore a 120
+    * Mi aiuto usando FILTER
+### MILESTONE 3:
+- Creare una lista dei nomi degli studenti in lettere maiuscole
+    * Mi aiuto con MAP
+    * Mi aiuto con to upper case
+    * Mi aiuto con join
+### CREO una funzione 
+- per ottenere i nomi degli studenti sopra una media voto specificata
