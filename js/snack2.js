@@ -16,7 +16,8 @@ Id  Name                Grades
 
 // Funzione per ottenere i nomi degli studenti sopra una media voto specificata
 function getSopra70Names(studentsList) {
-
+    const names = studentsList.map(student => student.name);
+    return names.join(', ');
 };
 
 //! OPERAZIONI INIZIALI:
