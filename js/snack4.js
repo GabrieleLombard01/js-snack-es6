@@ -3,7 +3,7 @@ console.log('JS OK')
 
 //todo FUNZIONI:
 
-// Funzione per generare un numero casuale compreso tra min (incluso) e max (escluso)
+// Funzione per generare un numero casuale compreso tra min (incluso) e max (escluso) :
 function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
   }
@@ -17,3 +17,9 @@ const teams = [
   ];
 
 //! LOGICA EFFETTIVA:
+
+// Genero numeri casuali per punti fatti e falli subiti di ogni squadra :
+for (let i = 0; i < teams.length; i++) {
+    teams[i].puntiFatti = getRandomNumber(0, 100);
+    teams[i].falliSubiti = getRandomNumber(0, 50);
+  }
