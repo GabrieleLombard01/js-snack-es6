@@ -11,4 +11,12 @@
 - "nome" sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
 - Generare numeri random al posto degli 0 nelle proprietà punti fatti e falli subiti.
 - Infine, usando il destructuring, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
-    <hr>
+<hr>
+
+## SNACK 2:
+### CREO un array con i nomi delle bici e il peso
+### CREO una variabile per indicizzare il peso minimo
+### CREO una logica che racchiuda un ciclo che ripeta attraverso il resto degli oggetti nell'array
+- servendomi di FOR e IF
+- servendomi di destructuring
+### STAMPO in console la bici col peso minore

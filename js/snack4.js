@@ -1,0 +1,6 @@
+//JS RESET
+console.log('JS OK')
+
+//! OPERAZIONI INIZIALI:
+
+//! LOGICA EFFETTIVA:
