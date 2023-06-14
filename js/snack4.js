@@ -23,3 +23,10 @@ for (let i = 0; i < teams.length; i++) {
     teams[i].puntiFatti = getRandomNumber(0, 100);
     teams[i].falliSubiti = getRandomNumber(0, 50);
   }
+
+// Creo un nuovo array con solo nomi e falli subiti utilizzando il destructuring :
+const teamData = teams.map(({ nome, falliSubiti }) => ({ nome, falliSubiti }));
+
+// Stampo tutto in console :
+console.log('Array originale di squadre di calcio:', teams);
+console.log('Nuovo array con nomi e falli subiti:', teamData);
