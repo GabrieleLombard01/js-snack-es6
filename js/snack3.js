@@ -15,3 +15,8 @@ const bikes = [
 let minWeightBike = bikes[0];
 
 //! LOGICA EFFETTIVA:
+
+//Ciclo che ripeta attraverso il resto degli oggetti nell'array:
+for (let i = 1; i < bikes.length; i++) {
+    
+}
