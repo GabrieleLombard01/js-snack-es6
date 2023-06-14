@@ -13,10 +13,17 @@
 - Infine, usando il destructuring, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 <hr>
 
-## SNACK 2:
+## SNACK 3:
 ### CREO un array con i nomi delle bici e il peso
 ### CREO una variabile per indicizzare il peso minimo
 ### CREO una logica che racchiuda un ciclo che ripeta attraverso il resto degli oggetti nell'array
 - servendomi di FOR e IF
 - servendomi di destructuring
 ### STAMPO in console la bici col peso minore
+<hr>
+
+## SNACK 4:
+### CREO un array che racchiuda oggetti di squadre di calcio
+### Genero numeri casuali per punti fatti e falli subiti di ogni squadra
+### CREO un nuovo array con solo nomi e falli subiti utilizzando il destructuring
+### STAMPO tutto in console
